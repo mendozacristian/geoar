@@ -33,17 +33,24 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Casa",
+            name: "Cristian",
             location: {
                 lat: -11.8811353, // add here latitude if using static data
                 lng: -77.0290984, // add here longitude if using static data
             }
         },
         {
-            name: 'Tienda',
+            name: 'Tienda cerca a Cristian',
             location: {
                 lat: -11.8807742,
                 lng: -77.0289944,
+            }
+        },
+        {
+            name: 'JuanCarlos',
+            location: {
+                lat: -12.1407694,
+                lng: -76.9917552,
             }
         }
     ];
